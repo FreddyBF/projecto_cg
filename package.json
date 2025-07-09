@@ -1,0 +1,20 @@
+{
+  "name": "3d-interactive-scene",
+  "version": "1.0.0",
+  "description": "Interactive 3D scene with humanoid and car using Three.js",
+
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
