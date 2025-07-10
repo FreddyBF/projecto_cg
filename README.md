@@ -12,7 +12,7 @@
 
 - Alfredo Fernando Baptista  
 - Constantini Manuel Domingos Gola  
-- Miguel Samuel Fuxi  
+- Manuel Samuel Fuxi  
 - Soares José Marques  
 
 ---
