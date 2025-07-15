@@ -21,10 +21,10 @@ _Faculdade de Ciências Naturais – Licenciatura em Ciências da Computação_
 
 Este projeto visa desenvolver uma **cena 3D interativa** utilizando tecnologias modernas da computação gráfica para a web. A experiência contempla:
 
-- 👤 Um **boneco humanoide** em 3D
-- 🚗 Um **carro modelado externamente**
-- 🌍 Um **plano de solo** como base para os objetos
-- 📸 Navegação com **câmera orbitável e zoom**
+- 👤 Um **boneco humanoide** em 3D  
+- 🚗 Um **carro modelado externamente**  
+- 🌍 Um **plano de solo** como base para os objetos  
+- 📸 Navegação com **câmera orbitável e zoom**  
 - 💡 Controle individual de **múltiplas fontes de luz**
 
 > Toda a interatividade e renderização são realizadas em tempo real, proporcionando uma simulação gráfica dinâmica e envolvente.
@@ -35,24 +35,24 @@ Este projeto visa desenvolver uma **cena 3D interativa** utilizando tecnologias 
 
 ### 🔷 Elementos da Cena
 
-- ✅ Boneco 3D (formato `.glb` ou `.obj`)
-- ✅ Carro 3D (modelo externo)
+- ✅ Boneco 3D (formato `.glb` ou `.obj`)  
+- ✅ Carro 3D (modelo externo)  
 - ✅ Plano/solo como base da simulação
 
 ### 🎥 Câmera
 
-- 🔄 Rotação horizontal e vertical em torno dos objetos
-- 🔍 Zoom com scroll do mouse
+- 🔄 Rotação horizontal e vertical em torno dos objetos  
+- 🔍 Zoom com scroll do mouse  
 - 🚫 Limitação para impedir que a câmera atravesse o chão
 
 ### 💡 Iluminação
 
 - 💡 Mínimo de **3 fontes de luz**:
-  - Luz ambiente
-  - Luz direcional
-  - Ponto de luz
-- 🎛️ Controle individual via teclado ou interface visual
-- 🌑 Efeitos de escurecimento visível ao desligar fontes de luz
+  - Luz ambiente  
+  - Luz direcional  
+  - Ponto de luz  
+- 🎛️ Controle individual via teclado ou interface visual  
+- 🌑 Efeitos de escurecimento visível ao desligar fontes de luz  
 - 🎬 Os objetos continuam renderizados mesmo em escuridão total
 
 ### 🕹️ Controles de Interação
@@ -69,10 +69,11 @@ Este projeto visa desenvolver uma **cena 3D interativa** utilizando tecnologias 
 
 ## ⚙️ Tecnologias Utilizadas
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![Webpack](https://img.shields.io/badge/Webpack-1C78C0?style=for-the-badge&logo=webpack&logoColor=white)
 
 ---
 
@@ -80,10 +81,10 @@ Este projeto visa desenvolver uma **cena 3D interativa** utilizando tecnologias 
 
 ### 📦 Pré-requisitos
 
-- [Node.js](https://nodejs.org/) instalado (recomendado v16+)
+- [Node.js](https://nodejs.org/) instalado (recomendado v16+)  
 - Navegador moderno (Chrome, Firefox, Edge)
 
-### ⚙️ Passo a passo com Parcel
+### ⚙️ Passo a passo com Webpack
 
 ```bash
 # Clone o repositório
@@ -93,6 +94,9 @@ cd projeto-3d-interativo
 # Instale as dependências
 npm install
 
+# Instale as dependências
+npm install
+
 # Inicie o projeto
-npm run start
+npm start
 ```
